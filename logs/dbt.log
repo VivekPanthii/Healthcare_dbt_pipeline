@@ -1,0 +1,98 @@
+[0m07:29:41.161366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4cca354920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4cca3566f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4cc9a9a3c0>]}
+
+
+============================== 07:29:41.164399 | 4cc7cbee-358d-4b28-8fcd-2129b2bc56c3 ==============================
+[0m07:29:41.164399 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m07:29:41.164948 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'log_cache_events': 'False', 'target_path': 'None', 'quiet': 'False', 'log_path': 'logs', 'use_experimental_parser': 'False', 'write_json': 'True', 'fail_fast': 'False', 'empty': 'None', 'introspect': 'True', 'invocation_command': 'dbt init healthcare_dbt', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'debug': 'False', 'profiles_dir': '/home/vivekpanthi/.dbt', 'version_check': 'True', 'indirect_selection': 'eager', 'printer_width': '80', 'warn_error': 'None'}
+[0m07:29:41.170908 [debug] [MainThread]: Starter project path: /home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m07:29:41.172466 [info ] [MainThread]: 
+Your new dbt project "healthcare_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:29:41.172855 [info ] [MainThread]: Setting up your profile.
+[0m07:34:37.256797 [info ] [MainThread]: Profile healthcare_dbt written to /home/vivekpanthi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:34:37.260134 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 296.13907, "process_in_blocks": "64", "process_kernel_time": 0.113031, "process_mem_max_rss": "166404", "process_out_blocks": "80", "process_user_time": 1.907533}
+[0m07:34:37.260773 [debug] [MainThread]: Command `dbt init` succeeded at 07:34:37.260666 after 296.14 seconds
+[0m07:34:37.261126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4cc9863890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4cc8ea1190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4cb02f2de0>]}
+[0m07:34:37.261471 [debug] [MainThread]: Flushing usage events
+[0m07:34:39.200774 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:37:00.014786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799705e1f050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7997045414c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799705806f60>]}
+
+
+============================== 07:37:00.017069 | af923763-e40c-4d04-b25d-8a0e0f235bd3 ==============================
+[0m07:37:00.017069 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m07:37:00.017510 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'debug': 'False', 'fail_fast': 'False', 'empty': 'False', 'static_parser': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'quiet': 'False', 'invocation_command': 'dbt run', 'log_path': 'logs', 'use_colors': 'True', 'log_format': 'default', 'profiles_dir': '/home/vivekpanthi/.dbt', 'introspect': 'True', 'log_cache_events': 'False', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None'}
+[0m07:37:00.017905 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/vivekpanthi/DataEngineering/Health_Care_ETL/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m07:37:00.018532 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.044335622, "process_in_blocks": "0", "process_kernel_time": 0.076841, "process_mem_max_rss": "99112", "process_out_blocks": "16", "process_user_time": 0.888166}
+[0m07:37:00.018911 [debug] [MainThread]: Command `dbt run` failed at 07:37:00.018840 after 0.04 seconds
+[0m07:37:00.019194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7997038377d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x799704016cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7997043ba240>]}
+[0m07:37:00.019509 [debug] [MainThread]: Flushing usage events
+[0m07:37:01.838655 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:32:12.028474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4ba26416d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4ba1b5eab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4ba4499610>]}
+
+
+============================== 16:32:12.030795 | 55d35edf-d97e-4684-be42-55321e794b95 ==============================
+[0m16:32:12.030795 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m16:32:12.031246 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'printer_width': '80', 'quiet': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/vivekpanthi/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'static_parser': 'True', 'log_cache_events': 'False', 'warn_error': 'None', 'version_check': 'True', 'empty': 'None', 'debug': 'False', 'log_path': 'logs', 'log_format': 'default', 'use_experimental_parser': 'False', 'target_path': 'None', 'write_json': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'partial_parse': 'True', 'introspect': 'True'}
+[0m16:32:17.483999 [error] [MainThread]: Encountered an error:
+
+[0m16:32:17.485426 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/dbt/task/init.py", line 324, in run
+    project_name = self.get_valid_project_name()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/dbt/task/init.py", line 278, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/click/termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/vivekpanthi/DataEngineering/Health_Care_ETL/my_venv/lib/python3.12/site-packages/click/termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m16:32:17.486168 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 5.49492, "process_in_blocks": "0", "process_kernel_time": 0.06386, "process_mem_max_rss": "99532", "process_out_blocks": "16", "process_user_time": 0.885064}
+[0m16:32:17.486558 [debug] [MainThread]: Command `dbt init` failed at 16:32:17.486485 after 5.50 seconds
+[0m16:32:17.486850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4ba26416d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4ba17cbf80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d4ba18e91f0>]}
+[0m16:32:17.487161 [debug] [MainThread]: Flushing usage events
+[0m16:32:19.107706 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:27:07.731188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79097dee2600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79097debde80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79097fe3e870>]}
+
+
+============================== 21:27:07.733698 | 8b2bbd6e-420a-42f5-a7e8-5a5b6515a85f ==============================
+[0m21:27:07.733698 [info ] [MainThread]: Running with dbt=1.10.13
+[0m21:27:07.734168 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'partial_parse': 'True', 'target_path': 'None', 'version_check': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'indirect_selection': 'eager', 'introspect': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'use_experimental_parser': 'False', 'profiles_dir': '/home/vivekpanthi/.dbt', 'static_parser': 'True', 'write_json': 'True', 'quiet': 'False', 'cache_selected_only': 'False', 'invocation_command': 'dbt docs generate', 'printer_width': '80', 'log_path': 'logs', 'empty': 'None', 'use_colors': 'True'}
+[0m21:27:07.734566 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/vivekpanthi/DataEngineering/Health_Care_ETL/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:27:07.735178 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.04597181, "process_in_blocks": "32", "process_kernel_time": 0.072849, "process_mem_max_rss": "99324", "process_out_blocks": "8", "process_user_time": 0.894152}
+[0m21:27:07.735600 [debug] [MainThread]: Command `dbt docs generate` failed at 21:27:07.735532 after 0.05 seconds
+[0m21:27:07.735858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79097d75b5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79097d31ec30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79097dd8fc80>]}
+[0m21:27:07.736124 [debug] [MainThread]: Flushing usage events
+[0m21:27:10.958797 [debug] [MainThread]: An error was encountered while trying to flush usage events

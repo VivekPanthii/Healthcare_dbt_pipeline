@@ -1,0 +1,101 @@
+treatment_id,patient_id,assessment_id,doctor_id,branch_id,treatment_start_date,treatment_end_date,treatment_type,therapy_type,medication_name,dosage_mg,frequency,duration_weeks,cost_usd,insurance_covered,patient_payment,treatment_status,side_effects_reported,effectiveness_rating,notes
+T001,P001,A001,DOC001,BR001,2024-01-22,2024-04-22,Medication + Therapy,CBT,Sertraline,50,Once Daily,12,2400.00,Yes,240.00,Completed,Mild nausea,8,Patient responded well
+T002,P002,A002,DOC003,BR002,2024-02-27,,Therapy Only,Psychotherapy,,,,8,1600.00,Yes,160.00,Active,,9,Excellent progress
+T003,P003,A003,DOC002,BR001,2024-03-17,2024-07-17,Medication + Therapy,CBT,Fluoxetine,40,Once Daily,16,3200.00,Yes,320.00,Completed,Headaches,7,Moderate improvement
+T004,P004,A004,DOC005,BR003,2024-04-12,,Medication + Therapy,Mindfulness,Escitalopram,10,Once Daily,10,2000.00,Yes,200.00,Active,None,8,Good response
+T005,P005,A005,DOC004,BR002,2024-05-20,,Therapy Only,Counseling,,,,6,1200.00,Yes,120.00,Active,,9,Doing very well
+T006,P006,A006,DOC006,BR004,2024-06-24,2024-10-24,Medication + Therapy,CBT,Venlafaxine,75,Once Daily,14,2800.00,Yes,280.00,Completed,Insomnia,7,Gradual improvement
+T007,P007,A007,DOC007,BR003,2024-07-30,,Medication + Therapy,DBT,Bupropion,150,Twice Daily,20,4000.00,Yes,400.00,Active,Dry mouth,6,Requires intensive support
+T008,P008,A008,DOC001,BR001,2024-08-22,,Medication + Therapy,Psychotherapy,Citalopram,20,Once Daily,8,1600.00,Yes,160.00,Active,None,8,Progressing well
+T009,P009,A009,DOC003,BR002,2024-09-27,2024-12-27,Medication + Therapy,CBT,Sertraline,50,Once Daily,12,2400.00,Yes,240.00,Completed,Mild fatigue,8,Good outcome
+T010,P010,A010,DOC008,BR004,2024-11-01,,Therapy Only,Mindfulness,,,,6,1200.00,Yes,120.00,Active,,9,Very positive
+T011,P011,A011,DOC005,BR003,2024-01-27,,Medication + Therapy,CBT,Paroxetine,20,Once Daily,10,2000.00,Yes,200.00,Active,Weight gain,7,Steady progress
+T012,P012,A012,DOC002,BR001,2024-02-17,2024-06-17,Medication + Therapy,Family Therapy,Duloxetine,60,Once Daily,16,3200.00,Yes,320.00,Completed,Nausea,7,Family dynamics improved
+T013,P013,A013,DOC004,BR002,2024-03-22,,Medication + Therapy,CBT,Escitalopram,15,Once Daily,8,1600.00,No,1600.00,Active,None,8,Self-pay patient
+T014,P014,A014,DOC006,BR004,2024-04-20,,Therapy Only,Counseling,,,,6,1200.00,Yes,120.00,Active,,9,Routine maintenance
+T015,P015,A015,DOC007,BR003,2024-05-27,,Medication + Therapy,DBT,Mirtazapine,30,Once Daily,18,3600.00,Yes,360.00,Active,Drowsiness,6,High-risk case
+T016,P016,A016,DOC001,BR001,2024-07-02,,Therapy Only,Psychotherapy,,,,8,1600.00,Yes,160.00,Active,,9,Research stress managed
+T017,P017,A017,DOC003,BR002,2024-07-14,2024-11-14,Medication + Therapy,CBT,Sertraline,75,Once Daily,14,2800.00,Yes,280.00,Completed,Insomnia,8,Employment helped recovery
+T018,P018,A018,DOC008,BR004,2024-08-20,,Medication + Therapy,Art Therapy,Fluoxetine,30,Once Daily,10,2000.00,Yes,200.00,Active,None,8,Creative therapy effective
+T019,P019,A019,DOC005,BR003,2024-09-24,,Therapy Only,Mindfulness,,,,6,1200.00,Yes,120.00,Active,,9,Coping well
+T020,P020,A020,DOC002,BR001,2024-10-30,,Medication + Therapy,CBT,Citalopram,30,Once Daily,12,2400.00,Yes,240.00,Active,None,8,Healthcare worker support
+T021,P021,A021,DOC004,BR002,2024-01-17,2024-06-17,Medication + Therapy,CBT,Venlafaxine,150,Once Daily,20,4000.00,Yes,400.00,Completed,Sweating,7,Multiple stressors addressed
+T022,P022,A022,DOC006,BR004,2024-02-22,,Medication + Therapy,Psychotherapy,Escitalopram,10,Once Daily,8,1600.00,Yes,160.00,Active,None,8,Customer service coping
+T023,P023,A023,DOC007,BR003,2024-03-27,,Medication + Therapy,Mindfulness,Sertraline,50,Once Daily,10,2000.00,Yes,200.00,Active,Mild nausea,8,IT stress managed
+T024,P024,A024,DOC001,BR001,2024-05-02,2024-09-02,Medication + Therapy,CBT,Bupropion,150,Twice Daily,14,2800.00,Yes,280.00,Completed,Dry mouth,7,Compassion fatigue reduced
+T025,P025,A025,DOC003,BR002,2024-05-17,2024-09-17,Medication + Therapy,Financial Counseling,Duloxetine,60,Once Daily,16,3200.00,Yes,320.00,Completed,Dizziness,7,Financial plan helped
+T026,P026,A026,DOC008,BR004,2024-06-22,,Therapy Only,Counseling,,,,6,1200.00,Yes,120.00,Active,,9,Professional support
+T027,P027,A027,DOC005,BR003,2024-07-27,,Medication + Therapy,DBT,Fluoxetine,40,Once Daily,18,3600.00,Yes,360.00,Active,Headaches,6,Occupational therapy added
+T028,P028,A028,DOC002,BR001,2024-09-01,,Medication + Therapy,CBT,Paroxetine,30,Once Daily,10,2000.00,Yes,200.00,Active,Weight gain,8,Project management coaching
+T029,P029,A029,DOC004,BR002,2024-09-14,,Medication + Therapy,Divorce Support,Sertraline,75,Once Daily,12,2400.00,Yes,240.00,Active,Insomnia,8,Support group helpful
+T030,P030,A030,DOC006,BR004,2024-10-20,,Therapy Only,Mindfulness,,,,8,1600.00,Yes,160.00,Active,,9,Wellness maintained
+T031,P031,A031,DOC007,BR003,2024-01-24,,Medication + Therapy,Work-Life Balance,Citalopram,25,Once Daily,10,2000.00,Yes,200.00,Active,None,8,Career counseling added
+T032,P032,A032,DOC001,BR001,2024-03-02,,Therapy Only,Psychotherapy,,,,6,1200.00,Yes,120.00,Active,,8,Low income support
+T033,P033,A033,DOC003,BR002,2024-03-20,2024-07-20,Medication + Therapy,CBT,Venlafaxine,75,Once Daily,14,2800.00,Yes,280.00,Completed,Nausea,7,Career transition successful
+T034,P034,A034,DOC008,BR004,2024-04-24,,Therapy Only,Counseling,,,,6,1200.00,Yes,120.00,Active,,9,General wellness check
+T035,P035,A035,DOC005,BR003,2024-05-30,,Medication + Therapy,PTSD Therapy,Mirtazapine,45,Once Daily,20,4000.00,Yes,400.00,Active,Drowsiness,6,Trauma-focused care
+T036,P036,A036,DOC002,BR001,2024-06-17,,Therapy Only,Academic Counseling,,,,8,1600.00,Yes,160.00,Active,,9,Academic pressure managed
+T037,P037,A037,DOC004,BR002,2024-07-22,2024-11-22,Medication + Therapy,CBT,Duloxetine,90,Once Daily,16,3200.00,Yes,320.00,Completed,Dry mouth,7,Financial counseling added
+T038,P038,A038,DOC006,BR004,2024-08-27,,Medication + Therapy,Professional Development,Escitalopram,20,Once Daily,10,2000.00,Yes,200.00,Active,None,8,Career coaching
+T039,P039,A039,DOC007,BR003,2024-10-02,,Medication + Therapy,Mindfulness,Sertraline,50,Once Daily,8,1600.00,Yes,160.00,Active,Mild fatigue,8,Engineering stress
+T040,P040,A040,DOC001,BR001,2024-10-14,,Medication + Therapy,CBT,Fluoxetine,30,Once Daily,12,2400.00,Yes,240.00,Active,None,8,Patient caseload support
+T041,P041,A041,DOC003,BR002,2024-01-20,2024-05-20,Medication + Therapy,Business Coaching,Bupropion,200,Twice Daily,18,3600.00,Yes,360.00,Completed,Insomnia,7,Business recovery plan
+T042,P042,A042,DOC008,BR004,2024-02-24,,Medication + Therapy,Financial Planning,Paroxetine,25,Once Daily,10,2000.00,Yes,200.00,Active,Weight gain,8,Budget counseling
+T043,P043,A043,DOC005,BR003,2024-03-30,,Therapy Only,Psychotherapy,,,,8,1600.00,Yes,160.00,Active,,9,Work stress minimal
+T044,P044,A044,DOC002,BR001,2024-04-17,,Medication + Therapy,Time Management,Citalopram,20,Once Daily,10,2000.00,Yes,200.00,Active,None,8,Deadline management
+T045,P045,A045,DOC004,BR002,2024-05-22,2024-09-22,Medication + Therapy,Relationship Therapy,Venlafaxine,150,Once Daily,16,3200.00,Yes,320.00,Completed,Sweating,7,Relationship counseling
+T046,P046,A046,DOC006,BR004,2024-06-27,,Therapy Only,Counseling,,,,6,1200.00,Yes,120.00,Active,,9,Research progressing
+T047,P047,A047,DOC007,BR003,2024-08-01,,Medication + Therapy,DBT,Duloxetine,120,Once Daily,20,4000.00,Yes,400.00,Active,Dizziness,6,Work injury support
+T048,P048,A048,DOC001,BR001,2024-08-17,,Medication + Therapy,CBT,Escitalopram,15,Once Daily,10,2000.00,Yes,200.00,Active,None,8,Event stress managed
+T049,P049,A049,DOC003,BR002,2024-09-22,,Medication + Therapy,Work-Life Balance,Sertraline,75,Once Daily,8,1600.00,Yes,160.00,Active,Insomnia,8,Banking stress
+T050,P050,A050,DOC008,BR004,2024-10-27,,Medication + Therapy,CBT,Fluoxetine,40,Once Daily,12,2400.00,Yes,240.00,Active,Headaches,8,Healthcare burnout
+T051,P001,A051,DOC001,BR001,2024-03-22,2024-05-22,Therapy Only,CBT,,,,8,1600.00,Yes,160.00,Completed,,9,Follow-up successful
+T052,P003,A052,DOC002,BR001,2024-05-17,2024-08-17,Medication + Therapy,CBT,Fluoxetine,30,Once Daily,14,2800.00,Yes,280.00,Completed,None,8,Dosage reduced
+T053,P006,A053,DOC006,BR004,2024-08-24,2024-11-24,Medication + Therapy,CBT,Venlafaxine,50,Once Daily,10,2000.00,Yes,200.00,Completed,None,8,Tapering off medication
+T054,P007,A054,DOC007,BR003,2024-09-30,,Medication + Therapy,DBT,Bupropion,100,Once Daily,16,3200.00,Yes,320.00,Active,Mild anxiety,7,Crisis management ongoing
+T055,P009,A055,DOC003,BR002,2024-11-27,,Therapy Only,Mindfulness,,,,6,1200.00,Yes,120.00,Active,,9,Maintenance therapy
+T056,P012,A056,DOC002,BR001,2024-04-17,2024-07-17,Medication + Therapy,Family Therapy,Duloxetine,45,Once Daily,12,2400.00,Yes,240.00,Completed,None,8,Family relationships improved
+T057,P015,A057,DOC007,BR003,2024-07-27,,Medication + Therapy,DBT,Mirtazapine,30,Once Daily,16,3200.00,Yes,320.00,Active,Drowsiness,6,Requires ongoing support
+T058,P017,A058,DOC003,BR002,2024-09-14,2024-12-14,Medication + Therapy,Job Counseling,Sertraline,50,Once Daily,10,2000.00,Yes,200.00,Completed,None,8,Employment stable
+T059,P021,A059,DOC004,BR002,2024-03-17,2024-07-17,Medication + Therapy,CBT,Venlafaxine,100,Once Daily,18,3600.00,Yes,360.00,Completed,Nausea,7,Some improvement
+T060,P025,A060,DOC003,BR002,2024-07-17,2024-10-17,Medication + Therapy,Financial Counseling,Duloxetine,45,Once Daily,12,2400.00,Yes,240.00,Completed,None,8,Financial situation better
+T061,P027,A061,DOC005,BR003,2024-09-27,,Medication + Therapy,Occupational Therapy,Fluoxetine,30,Once Daily,14,2800.00,Yes,280.00,Active,Mild headaches,8,Work rehabilitation
+T062,P035,A062,DOC005,BR003,2024-07-30,,Medication + Therapy,PTSD Therapy,Mirtazapine,45,Once Daily,18,3600.00,Yes,360.00,Active,Drowsiness,6,Trauma therapy continuing
+T063,P037,A063,DOC004,BR002,2024-09-22,,Medication + Therapy,CBT,Duloxetine,60,Once Daily,14,2800.00,Yes,280.00,Active,Dry mouth,7,Gradual improvement
+T064,P041,A064,DOC003,BR002,2024-03-20,2024-07-20,Medication + Therapy,Business Coaching,Bupropion,150,Once Daily,16,3200.00,Yes,320.00,Completed,Insomnia,7,Business plan developed
+T065,P045,A065,DOC004,BR002,2024-07-22,,Medication + Therapy,Relationship Therapy,Venlafaxine,100,Once Daily,12,2400.00,Yes,240.00,Active,Sweating,8,Relationship healing
+T066,P047,A066,DOC007,BR003,2024-10-02,,Medication + Therapy,Physical Rehabilitation,Duloxetine,90,Once Daily,16,3200.00,Yes,320.00,Active,Dizziness,7,Physical recovery focus
+T067,P004,A067,DOC005,BR003,2024-06-12,2024-08-12,Therapy Only,Mindfulness,,,,6,1200.00,Yes,120.00,Completed,,9,Successful discharge
+T068,P008,A068,DOC001,BR001,2024-10-22,2024-11-22,Therapy Only,CBT,,,,4,800.00,Yes,80.00,Completed,,9,Discharge approved
+T069,P011,A069,DOC005,BR003,2024-03-27,2024-06-27,Medication + Therapy,Financial Planning,Paroxetine,15,Once Daily,8,1600.00,Yes,160.00,Completed,None,8,Financial plan working
+T070,P018,A070,DOC008,BR004,2024-10-20,2024-12-20,Medication + Therapy,Art Therapy,Fluoxetine,20,Once Daily,6,1200.00,Yes,120.00,Active,None,9,Creative recovery
+T071,P020,A071,DOC002,BR001,2024-12-30,,Medication + Therapy,CBT,Citalopram,20,Once Daily,8,1600.00,Yes,160.00,Active,None,8,Workload managed
+T072,P023,A072,DOC007,BR003,2024-05-27,2024-07-27,Therapy Only,Work-Life Balance,,,,6,1200.00,Yes,120.00,Completed,,9,Project completion helped
+T073,P024,A073,DOC001,BR001,2024-08-01,,Medication + Therapy,CBT,Bupropion,100,Once Daily,10,2000.00,Yes,200.00,Active,Mild anxiety,8,Ongoing support needed
+T074,P028,A074,DOC002,BR001,2024-12-02,,Therapy Only,Mindfulness,,,,4,800.00,Yes,80.00,Active,,9,Maintenance phase
+T075,P029,A075,DOC004,BR002,2024-11-14,,Therapy Only,Support Group,,,,6,1200.00,Yes,120.00,Active,,9,Divorce adjustment complete
+T076,P033,A076,DOC003,BR002,2024-05-20,2024-08-20,Medication + Therapy,Career Counseling,Venlafaxine,50,Once Daily,10,2000.00,Yes,200.00,Completed,None,8,Career transition successful
+T077,P038,A077,DOC006,BR004,2024-11-27,,Therapy Only,Professional Development,,,,6,1200.00,Yes,120.00,Active,,9,Career advancing well
+T078,P039,A078,DOC007,BR003,2025-01-01,,Therapy Only,Mindfulness,,,,4,800.00,Yes,80.00,Active,,9,Minimal intervention needed
+T079,P042,A079,DOC008,BR004,2024-04-24,2024-06-24,Therapy Only,Financial Planning,,,,6,1200.00,Yes,120.00,Completed,,9,Income stabilized
+T080,P044,A080,DOC002,BR001,2024-06-17,2024-08-17,Therapy Only,Time Management,,,,6,1200.00,Yes,120.00,Completed,,9,Time management improved
+T081,P048,A081,DOC001,BR001,2024-10-17,2024-12-17,Therapy Only,Business Support,,,,6,1200.00,Yes,120.00,Active,,9,Business thriving
+T082,P049,A082,DOC003,BR002,2024-11-22,,Therapy Only,Work-Life Balance,,,,4,800.00,Yes,80.00,Active,,9,Excellent balance
+T083,P050,A083,DOC008,BR004,2024-12-27,,Medication + Therapy,CBT,Fluoxetine,30,Once Daily,8,1600.00,Yes,160.00,Active,None,8,Continued monitoring
+T084,P013,A084,DOC002,BR001,2024-02-10,2024-06-10,Medication + Therapy,CBT,Venlafaxine,100,Once Daily,14,2800.00,Yes,280.00,Completed,Sweating,7,Engineering stress reduced
+T085,P014,A085,DOC006,BR004,2024-03-16,,Therapy Only,Counseling,,,,8,1600.00,Yes,160.00,Active,,9,Managing well
+T086,P016,A086,DOC001,BR001,2024-09-02,,Therapy Only,Academic Support,,,,4,800.00,Yes,80.00,Active,,9,Research milestone achieved
+T087,P019,A087,DOC005,BR003,2024-11-24,,Therapy Only,Mindfulness,,,,4,800.00,Yes,80.00,Active,,9,Stable condition
+T088,P022,A088,DOC006,BR004,2024-04-22,2024-06-22,Therapy Only,CBT,,,,6,1200.00,Yes,120.00,Completed,,9,Significant improvement
+T089,P026,A089,DOC008,BR004,2024-08-22,2024-10-22,Therapy Only,Professional Support,,,,4,800.00,Yes,80.00,Completed,,9,No concerns
+T090,P030,A090,DOC006,BR004,2024-12-20,,Therapy Only,Wellness Maintenance,,,,4,800.00,Yes,80.00,Active,,9,Excellent progress
+T091,P032,A091,DOC001,BR001,2024-04-30,2024-06-30,Therapy Only,Psychotherapy,,,,6,1200.00,Yes,120.00,Completed,,9,Situation improved
+T092,P034,A092,DOC008,BR004,2024-06-24,2024-08-24,Therapy Only,Wellness Check,,,,4,800.00,Yes,80.00,Completed,,9,Very stable
+T093,P036,A093,DOC002,BR001,2024-08-17,2024-10-17,Therapy Only,Academic Counseling,,,,6,1200.00,Yes,120.00,Completed,,9,Research balanced
+T094,P040,A094,DOC001,BR001,2024-12-14,,Medication + Therapy,CBT,Fluoxetine,25,Once Daily,8,1600.00,Yes,160.00,Active,None,8,Workload balanced
+T095,P043,A095,DOC005,BR003,2024-05-30,2024-07-30,Therapy Only,Career Support,,,,6,1200.00,Yes,120.00,Completed,,9,Thriving at work
+T096,P046,A096,DOC006,BR004,2024-08-27,2024-10-27,Therapy Only,Research Support,,,,4,800.00,Yes,80.00,Completed,,9,Research breakthrough
+T097,P010,A097,DOC008,BR004,2025-01-02,,Therapy Only,Wellness Maintenance,,,,4,800.00,Yes,80.00,Active,,9,Maintaining wellness
+T098,P005,A098,DOC004,BR002,2024-07-20,2024-09-20,Therapy Only,Counseling,,,,4,800.00,Yes,80.00,Completed,,9,Excellent state
+T099,P031,A099,DOC007,BR003,2024-03-24,2024-05-24,Therapy Only,Work-Life Balance,,,,8,1600.00,Yes,160.00,Completed,,9,Routine follow-up
+T100,P002,A100,DOC003,BR002,2024-04-27,2024-05-27,Therapy Only,Final Session,,,,4,800.00,Yes,80.00,Completed,,10,Discharge recommended

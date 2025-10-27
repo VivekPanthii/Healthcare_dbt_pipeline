@@ -1,0 +1,5 @@
+{"timestamp":"2025-10-26T13:44:28.542110Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-26T13:44:28.542783Z","level":"info","event":"Filling up the DagBag from /home/vivekpanthi/DataEngineering/Health_Care_ETL/airflow/dags/healthcare_dbt_etl.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-26T13:44:28.627881Z","level":"info","event":"Found credentials in shared credentials file: ~/.aws/credentials","logger":"botocore.credentials","filename":"credentials.py","lineno":1364}
+{"timestamp":"2025-10-26T13:44:29.183709Z","level":"info","event":"All new files processed and metadata updated.","logger":"root","filename":"extraction.py","lineno":85}
+{"timestamp":"2025-10-26T13:44:29.184201Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":218}

@@ -1,0 +1,101 @@
+assessment_id,patient_id,assessment_date,doctor_id,branch_id,depression_score,anxiety_score,stress_level,sleep_quality,appetite_changes,social_withdrawal,concentration_issues,suicidal_thoughts,medication_prescribed,therapy_sessions_recommended,diagnosis_code,severity_level,notes,follow_up_date,assessment_type
+A001,P001,2024-01-20,DOC001,BR001,15,12,Moderate,Fair,Yes,No,Yes,No,Sertraline,12,F32.1,Moderate,Patient shows moderate symptoms,2024-02-20,Initial
+A002,P002,2024-02-25,DOC003,BR002,8,6,Low,Good,No,No,No,No,,8,F32.0,Mild,Mild anxiety symptoms noted,2024-03-25,Follow-up
+A003,P003,2024-03-15,DOC002,BR001,22,18,High,Poor,Yes,Yes,Yes,No,Fluoxetine,16,F32.2,Severe,Severe depression with anxiety,2024-04-15,Initial
+A004,P004,2024-04-10,DOC005,BR003,12,10,Moderate,Fair,No,No,Yes,No,Escitalopram,10,F32.1,Moderate,Work-related stress noted,2024-05-10,Initial
+A005,P005,2024-05-18,DOC004,BR002,5,4,Low,Good,No,No,No,No,,6,F32.0,Mild,Minor adjustment issues,2024-06-18,Follow-up
+A006,P006,2024-06-22,DOC006,BR004,18,15,High,Poor,Yes,No,Yes,No,Venlafaxine,14,F32.2,Severe,Recent breakup affecting mood,2024-07-22,Initial
+A007,P007,2024-07-28,DOC007,BR003,20,17,High,Poor,Yes,Yes,Yes,Yes,Bupropion,20,F32.2,Severe,Immediate intervention required,2024-08-28,Emergency
+A008,P008,2024-08-20,DOC001,BR001,10,8,Moderate,Fair,No,No,No,No,Citalopram,8,F32.0,Mild,Stress from new job,2024-09-20,Initial
+A009,P009,2024-09-25,DOC003,BR002,16,14,High,Fair,Yes,No,Yes,No,Sertraline,12,F32.1,Moderate,Divorce-related depression,2024-10-25,Initial
+A010,P010,2024-10-30,DOC008,BR004,7,5,Low,Good,No,No,No,No,,6,F32.0,Mild,Doing well overall,2024-11-30,Follow-up
+A011,P011,2024-01-25,DOC005,BR003,14,11,Moderate,Fair,Yes,No,Yes,No,Paroxetine,10,F32.1,Moderate,Financial stress noted,2024-02-25,Initial
+A012,P012,2024-02-15,DOC002,BR001,19,16,High,Poor,Yes,Yes,Yes,No,Duloxetine,16,F32.2,Severe,Family conflict issues,2024-03-15,Initial
+A013,,2024-03-20,DOC004,BR002,11,9,Moderate,Fair,No,No,Yes,No,Escitalopram,8,F32.1,Moderate,Career uncertainty,2024-04-20,Initial
+A014,P014,2024-04-18,DOC006,BR004,6,5,Low,Good,No,No,No,No,,6,F32.0,Mild,General wellness check,2024-05-18,Follow-up
+A015,P015,2024-05-25,DOC007,BR003,21,19,High,Poor,Yes,Yes,Yes,Yes,Mirtazapine,18,F32.2,Severe,Substance abuse history,2024-06-25,Emergency
+A016,P016,2024-06-30,DOC001,BR001,9,7,Low,Good,No,No,No,No,,8,F32.0,Mild,Research stress,2024-07-30,Initial
+A017,P017,2024-07-12,DOC003,BR002,17,14,High,Fair,Yes,No,Yes,No,Sertraline,14,F32.1,Moderate,Job loss depression,2024-08-12,Initial
+A018,P018,2024-08-18,DOC008,BR004,13,11,Moderate,Fair,No,No,Yes,No,Fluoxetine,10,F32.1,Moderate,Creative burnout,2024-09-18,Initial
+A019,P019,2024-09-22,DOC005,BR003,8,6,Low,Good,No,No,No,No,,6,F32.0,Mild,Work stress manageable,2024-10-22,Follow-up
+A020,P020,2024-10-28,DOC002,BR001,15,13,Moderate,Fair,Yes,No,Yes,No,Citalopram,12,F32.1,Moderate,Healthcare worker burnout,2024-11-28,Initial
+A021,P021,2024-01-15,DOC004,BR002,23,20,High,Poor,Yes,Yes,Yes,No,Venlafaxine,20,F32.2,Severe,Multiple stressors present,2024-02-15,Initial
+A022,P022,2024-02-20,DOC006,BR004,10,8,Moderate,Fair,No,No,Yes,No,Escitalopram,8,F32.0,Mild,Customer service stress,2024-03-20,Initial
+A023,P023,2024-03-25,DOC007,BR003,12,10,Moderate,Fair,Yes,No,No,No,Sertraline,10,F32.1,Moderate,IT project deadlines,2024-04-25,Initial
+A024,P024,2024-04-30,DOC001,BR001,16,14,High,Poor,Yes,No,Yes,No,Bupropion,14,F32.1,Moderate,Compassion fatigue,2024-05-30,Initial
+A025,P025,2024-05-15,DOC003,BR002,18,15,High,Poor,Yes,Yes,Yes,No,Duloxetine,16,F32.2,Severe,Financial difficulties,2024-06-15,Initial
+A026,P026,2024-06-20,DOC008,BR004,7,5,Low,Good,No,No,No,No,,6,F32.0,Mild,Professional consultation,2024-07-20,Follow-up
+A027,P027,2024-07-25,DOC005,BR003,20,17,High,Poor,Yes,Yes,Yes,Yes,Fluoxetine,18,F32.2,Severe,Occupational hazards,2024-08-25,Emergency
+A028,P028,2024-08-30,DOC002,BR001,11,9,Moderate,Fair,No,No,Yes,No,Paroxetine,10,F32.1,Moderate,Project management stress,2024-09-30,Initial
+A029,P029,2024-09-12,DOC004,BR002,14,12,Moderate,Fair,Yes,No,Yes,No,Sertraline,12,F32.1,Moderate,Post-divorce adjustment,2024-10-12,Initial
+A030,P030,2024-10-18,DOC006,BR004,8,6,Low,Good,No,No,No,No,,8,F32.0,Mild,Routine checkup,2024-11-18,Follow-up
+A031,P031,2024-01-22,DOC007,BR003,13,11,Moderate,Fair,Yes,No,Yes,No,Citalopram,10,F32.1,Moderate,Work-life balance issues,2024-02-22,Initial
+A032,P032,2024-02-28,DOC001,BR001,9,7,Low,Good,No,No,No,No,,6,F32.0,Mild,Low income stress,2024-03-28,Initial
+A033,P033,2024-03-18,DOC003,BR002,17,15,High,Fair,Yes,No,Yes,No,Venlafaxine,14,F32.1,Moderate,Career transition anxiety,2024-04-18,Initial
+A034,P034,2024-04-22,DOC008,BR004,6,4,Low,Good,No,No,No,No,,6,F32.0,Mild,General wellness,2024-05-22,Follow-up
+A035,P035,2024-05-28,DOC005,BR003,22,19,High,Poor,Yes,Yes,Yes,Yes,Mirtazapine,20,F32.2,Severe,PTSD symptoms present,2024-06-28,Emergency
+A036,P036,2024-06-15,DOC002,BR001,8,6,Low,Good,No,No,No,No,,8,F32.0,Mild,Academic stress,2024-07-15,Initial
+A037,P037,2024-07-20,DOC004,BR002,19,16,High,Poor,Yes,Yes,Yes,No,Duloxetine,16,F32.2,Severe,Financial insecurity,2024-08-20,Initial
+A038,P038,2024-08-25,DOC006,BR004,12,10,Moderate,Fair,No,No,Yes,No,Escitalopram,10,F32.1,Moderate,Professional development stress,2024-09-25,Initial
+A039,P039,2024-09-30,DOC007,BR003,10,8,Moderate,Fair,Yes,No,No,No,Sertraline,8,F32.0,Mild,Work pressure,2024-10-30,Initial
+A040,P040,2024-10-12,DOC001,BR001,14,12,Moderate,Fair,Yes,No,Yes,No,Fluoxetine,12,F32.1,Moderate,Patient caseload stress,2024-11-12,Initial
+A041,P041,2024-01-18,DOC003,BR002,21,18,High,Poor,Yes,Yes,Yes,No,Bupropion,18,F32.2,Severe,Business failure,2024-02-18,Initial
+A042,P042,2024-02-22,DOC008,BR004,11,9,Moderate,Fair,No,No,Yes,No,Paroxetine,10,F32.1,Moderate,Financial stress,2024-03-22,Initial
+A043,P043,2024-03-28,DOC005,BR003,9,7,Low,Good,No,No,No,No,,8,F32.0,Mild,Mild work stress,2024-04-28,Follow-up
+A044,P044,2024-04-15,DOC002,BR001,13,11,Moderate,Fair,Yes,No,Yes,No,Citalopram,10,F32.1,Moderate,Deadline pressure,2024-05-15,Initial
+A045,P045,2024-05-20,DOC004,BR002,18,15,High,Poor,Yes,No,Yes,No,Venlafaxine,16,F32.2,Severe,Relationship breakdown,2024-06-20,Initial
+A046,P046,2024-06-25,DOC006,BR004,7,5,Low,Good,No,No,No,No,,6,F32.0,Mild,Research going well,2024-07-25,Follow-up
+A047,P047,2024-07-30,DOC007,BR003,20,17,High,Poor,Yes,Yes,Yes,Yes,Duloxetine,20,F32.2,Severe,Severe work injury impact,2024-08-30,Emergency
+A048,P048,2024-08-15,DOC001,BR001,12,10,Moderate,Fair,No,No,Yes,No,Escitalopram,10,F32.1,Moderate,Event planning stress,2024-09-15,Initial
+A049,P049,2024-09-20,DOC003,BR002,10,8,Moderate,Fair,Yes,No,No,No,Sertraline,8,F32.0,Mild,Work-life balance,2024-10-20,Initial
+A050,P050,2024-10-25,DOC008,BR004,15,13,Moderate,Fair,Yes,No,Yes,No,Fluoxetine,12,F32.1,Moderate,Patient care burnout,2024-11-25,Initial
+A051,P001,2024-03-20,DOC001,BR001,10,8,Low,Good,No,No,No,No,Sertraline,8,F32.0,Mild,Improvement noted,2024-04-20,Follow-up
+A052,P003,2024-05-15,DOC002,BR001,18,15,Moderate,Fair,Yes,No,Yes,No,Fluoxetine,14,F32.1,Moderate,Slight improvement,2024-06-15,Follow-up
+A053,P006,2024-08-22,DOC006,BR004,12,10,Moderate,Fair,No,No,Yes,No,Venlafaxine,10,F32.1,Moderate,Gradual recovery,2024-09-22,Follow-up
+A054,P007,2024-09-28,DOC007,BR003,15,13,Moderate,Fair,Yes,No,Yes,No,Bupropion,16,F32.1,Moderate,Crisis resolved,2024-10-28,Follow-up
+A055,P009,2024-11-25,DOC003,BR002,11,9,Low,Good,No,No,No,No,Sertraline,6,F32.0,Mild,Good progress,2024-12-25,Follow-up
+A056,P012,2024-04-15,DOC002,BR001,14,12,Moderate,Fair,Yes,No,Yes,No,Duloxetine,12,F32.1,Moderate,Family therapy helping,2024-05-15,Follow-up
+A057,P015,2024-07-25,DOC007,BR003,17,14,High,Fair,Yes,Yes,Yes,No,Mirtazapine,16,F32.2,Severe,Still struggling,2024-08-25,Follow-up
+A058,P017,2024-09-12,DOC003,BR002,13,11,Moderate,Fair,No,No,Yes,No,Sertraline,10,F32.1,Moderate,New job helping,2024-10-12,Follow-up
+A059,P021,2024-03-15,DOC004,BR002,19,16,High,Poor,Yes,Yes,Yes,No,Venlafaxine,18,F32.2,Severe,Multiple issues persist,2024-04-15,Follow-up
+A060,P025,2024-07-15,DOC003,BR002,14,12,Moderate,Fair,Yes,No,Yes,No,Duloxetine,12,F32.1,Moderate,Financial situation improving,2024-08-15,Follow-up
+A061,P027,2024-09-25,DOC005,BR003,16,14,Moderate,Fair,Yes,No,Yes,No,Fluoxetine,14,F32.1,Moderate,Therapy effective,2024-10-25,Follow-up
+A062,P035,2024-07-28,DOC005,BR003,18,15,High,Fair,Yes,Yes,Yes,No,Mirtazapine,18,F32.2,Severe,Requires continued support,2024-08-28,Follow-up
+A063,P037,2024-09-20,DOC004,BR002,15,13,Moderate,Fair,Yes,No,Yes,No,Duloxetine,14,F32.1,Moderate,Some improvement,2024-10-20,Follow-up
+A064,P041,2024-03-18,DOC003,BR002,17,15,High,Fair,Yes,Yes,Yes,No,Bupropion,16,F32.2,Severe,Still high risk,2024-04-18,Follow-up
+A065,P045,2024-07-20,DOC004,BR002,14,12,Moderate,Fair,Yes,No,Yes,No,Venlafaxine,12,F32.1,Moderate,Making progress,2024-08-20,Follow-up
+A066,P047,2024-09-30,DOC007,BR003,16,14,High,Fair,Yes,No,Yes,No,Duloxetine,16,F32.2,Severe,Physical recovery ongoing,2024-10-30,Follow-up
+A067,P004,2024-06-10,DOC005,BR003,8,6,Low,Good,No,No,No,No,Escitalopram,6,F32.0,Mild,Much improved,2024-07-10,Follow-up
+A068,P008,2024-10-20,DOC001,BR001,6,5,Low,Good,No,No,No,No,,4,F32.0,Mild,Ready for discharge,2024-11-20,Follow-up
+A069,P011,2024-03-25,DOC005,BR003,10,8,Moderate,Fair,No,No,Yes,No,Paroxetine,8,F32.0,Mild,Financial plan in place,2024-04-25,Follow-up
+A070,P018,2024-10-18,DOC008,BR004,9,7,Low,Good,No,No,No,No,Fluoxetine,6,F32.0,Mild,Creative spark returning,2024-11-18,Follow-up
+A071,P020,2024-12-28,DOC002,BR001,11,9,Moderate,Fair,No,No,Yes,No,Citalopram,8,F32.1,Moderate,Workload managed,2024-01-28,Follow-up
+A072,P023,2024-05-25,DOC007,BR003,8,6,Low,Good,No,No,No,No,Sertraline,6,F32.0,Mild,Project completed,2024-06-25,Follow-up
+A073,P024,2024-07-30,DOC001,BR001,12,10,Moderate,Fair,Yes,No,Yes,No,Bupropion,10,F32.1,Moderate,Still needs support,2024-08-30,Follow-up
+A074,P028,2024-11-30,DOC002,BR001,7,5,Low,Good,No,No,No,No,Paroxetine,4,F32.0,Mild,Doing very well,2024-12-30,Follow-up
+A075,P029,2024-11-12,DOC004,BR002,10,8,Low,Good,No,No,No,No,Sertraline,6,F32.0,Mild,Adjusted well,2024-12-12,Follow-up
+A076,P033,2024-05-18,DOC003,BR002,13,11,Moderate,Fair,Yes,No,Yes,No,Venlafaxine,10,F32.1,Moderate,Career change difficult,2024-06-18,Follow-up
+A077,P038,2024-11-25,DOC006,BR004,8,6,Low,Good,No,No,No,No,Escitalopram,6,F32.0,Mild,Career advancing,2024-12-25,Follow-up
+A078,P039,2024-12-30,DOC007,BR003,6,5,Low,Good,No,No,No,No,,4,F32.0,Mild,Well managed,2024-01-30,Follow-up
+A079,P042,2024-04-22,DOC008,BR004,8,7,Low,Good,No,No,No,No,Paroxetine,6,F32.0,Mild,Income stable,2024-05-22,Follow-up
+A080,P044,2024-06-15,DOC002,BR001,9,7,Low,Good,No,No,No,No,Citalopram,6,F32.0,Mild,Time management improved,2024-07-15,Follow-up
+A081,P048,2024-10-15,DOC001,BR001,8,6,Low,Good,No,No,No,No,Escitalopram,6,F32.0,Mild,Business thriving,2024-11-15,Follow-up
+A082,P049,2024-11-20,DOC003,BR002,7,5,Low,Good,No,No,No,No,Sertraline,4,F32.0,Mild,Excellent recovery,2024-12-20,Follow-up
+A083,P050,2024-12-25,DOC008,BR004,11,9,Moderate,Fair,No,No,Yes,No,Fluoxetine,8,F32.1,Moderate,Ongoing monitoring,2025-01-25,Follow-up
+A084,P013,2024-02-08,DOC002,BR001,16,14,High,Poor,Yes,No,Yes,No,Venlafaxine,14,F32.1,Moderate,Engineering stress,2024-03-08,Initial
+A085,P014,2024-03-14,DOC006,BR004,9,7,Low,Good,No,No,No,No,,8,F32.0,Mild,Managing well,2024-04-14,Initial
+A086,P016,2024-08-30,DOC001,BR001,5,4,Low,Good,No,No,No,No,,4,F32.0,Mild,Research milestone achieved,2024-09-30,Follow-up
+A087,P019,2024-11-22,DOC005,BR003,6,5,Low,Good,No,No,No,No,,4,F32.0,Mild,Stable condition,2024-12-22,Follow-up
+A088,P022,2024-04-20,DOC006,BR004,8,7,Low,Good,No,No,No,No,Escitalopram,6,F32.0,Mild,Improved significantly,2024-05-20,Follow-up
+A089,P026,2024-08-20,DOC008,BR004,5,4,Low,Good,No,No,No,No,,4,F32.0,Mild,No concerns,2024-09-20,Follow-up
+A090,P030,2024-12-18,DOC006,BR004,6,5,Low,Good,No,No,No,No,,4,F32.0,Mild,Excellent progress,2025-01-18,Follow-up
+A091,P032,2024-04-28,DOC001,BR001,7,6,Low,Good,No,No,No,No,,6,F32.0,Mild,Situation improved,2024-05-28,Follow-up
+A092,P034,2024-06-22,DOC008,BR004,4,3,Low,Good,No,No,No,No,,4,F32.0,Mild,Very stable,2024-07-22,Follow-up
+A093,P036,2024-08-15,DOC002,BR001,6,5,Low,Good,No,No,No,No,,6,F32.0,Mild,Research balanced,2024-09-15,Follow-up
+A094,P040,2024-12-12,DOC001,BR001,10,8,Moderate,Fair,No,No,Yes,No,Fluoxetine,8,F32.0,Mild,Workload balanced,2025-01-12,Follow-up
+A095,P043,2024-05-28,DOC005,BR003,7,6,Low,Good,No,No,No,No,,6,F32.0,Mild,Thriving at work,2024-06-28,Follow-up
+A096,P046,2024-08-25,DOC006,BR004,5,4,Low,Good,No,No,No,No,,4,F32.0,Mild,Research breakthrough,2024-09-25,Follow-up
+A097,P010,2024-12-30,DOC008,BR004,5,4,Low,Good,No,No,No,No,,4,F32.0,Mild,Maintaining wellness,2025-01-30,Follow-up
+A098,P005,2024-07-18,DOC004,BR002,4,3,Low,Good,No,No,No,No,,4,F32.0,Mild,Excellent state,2024-08-18,Follow-up
+A099,P031,2024-03-22,DOC007,BR003,10,8,Moderate,Fair,Yes,No,No,No,Citalopram,8,F32.0,Mild,Routine follow-up,2024-04-22,Follow-up
+A100,P002,2024-04-25,DOC003,BR002,6,5,Low,Good,No,No,No,No,,4,F32.0,Mild,Discharge recommended,2024-05-25,Follow-up

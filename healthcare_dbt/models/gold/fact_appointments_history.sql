@@ -1,0 +1,46 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='APPOINTMENT_ID'
+    )
+}}
+SELECT 
+    f.APPOINTMENT_ID,
+    p.PATIENT_SK AS PATIENT_FK,
+    d.PRACTITIONER_SK AS PRACTITIONER_FK,
+    b.BRANCH_SK AS BRANCH_FK,
+    f.APPOINTMENT_DATE,
+    a.APPOINTMENT_TYPE_SK AS APPOINTMENT_TYPE_FK,
+    f.APPOINTMENT_STATUS,
+    f.CHECK_IN_TIME,
+    f.CHECK_OUT_TIME,
+    f.WAIT_TIME_MINUTES,
+    f.CONSULTATION_DURATION_MINUTES,
+    f.REASON_FOR_VISIT,
+    f.NOTES,
+    f.FOLLOW_UP_REQUIRED,
+    f.NEXT_APPOINTMENT_DATE,
+    py.PAYMENT_STATUS_SK AS PAYMENT_STATUS_FK,
+    f.PAYMENT_AMOUNT
+FROM 
+    {{ref('silver_appointments_history')}} f
+LEFT JOIN {{ref('dim_patient_demographics')}} p
+    ON f.PATIENT_ID=p.PATIENT_ID
+    AND f.APPOINTMENT_DATE>=p.EFFECTIVE_FROM
+    AND f.APPOINTMENT_DATE<p.EFFECTIVE_TO
+LEFT JOIN {{ref('dim_medical_practioners')}} d 
+    ON f.DOCTOR_ID=d.DOCTOR_ID
+    AND f.APPOINTMENT_DATE>=p.EFFECTIVE_FROM
+    AND f.APPOINTMENT_DATE<p.EFFECTIVE_TO
+LEFT JOIN {{ref('dim_branches')}} b 
+    ON f.BRANCH_ID=b.BRANCH_ID
+    AND f.APPOINTMENT_DATE>=b.EFFECTIVE_FROM
+    AND f.APPOINTMENT_DATE<b.EFFECTIVE_TO
+LEFT JOIN {{ref('dim_appointment_type')}} a 
+    ON f.APPOINTMENT_TYPE= a.APPOINTMENT_TYPE
+LEFT JOIN {{ref('dim_payment')}} py 
+    ON f.PAYMENT_STATUS=py.PAYMENT_STATUS
+
+{% if is_incremental() %}
+  WHERE f.APPOINTMENT_ID NOT IN (SELECT APPOINTMENT_ID FROM {{ this }})
+{% endif %}

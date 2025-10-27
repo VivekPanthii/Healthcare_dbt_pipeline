@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: source
+    database: MYDB
+    schema: RAW_DATA
+    tables: 
+      - name: APPOINTMENTS_HISTORY
+      - name: HOSPITAL_BRANCHES
+      - name: MEDICAL_PRACTITIONERS
+      - name: MENTAL_HEALTH_ASSESSMENTS
+      - name: PATIENT_DEMOGRAPHICS
+      - name: TREATMENT_PLANS

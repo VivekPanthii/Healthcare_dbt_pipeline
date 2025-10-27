@@ -1,0 +1,49 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='ASSESSMENT_SK'
+    )
+}}
+
+SELECT 
+    ROW_NUMBER() OVER (ORDER BY ASSESSMENT_ID) AS ASSESSMENT_SK,
+    f.ASSESSMENT_ID,
+    p.PATIENT_SK AS PATIENT_FK,
+    d.PRACTITIONER_SK PRACTITIONER_FK,
+    b.BRANCH_SK BRANCH_FK,
+    f.DEPRESSION_SCORE,
+    f.ANXIETY_SCORE,
+    f.STRESS_LEVEL,
+    f.SLEEP_QUALITY,
+    f.APPETITE_CHANGES,
+    f.SOCIAL_WITHDRAWAL,
+    f.CONCENTRATION_ISSUES,
+    f.SUICIDAL_THOUGHTS,
+    m.MEDICATION_PRESCRIBED,
+    f.THERAPY_SESSIONS_RECOMMENDED,
+    di.DIAGNOSIS_CODE_SK AS DIAGNOSIS_CODE_FK,
+    f.NOTES,
+    f.FOLLOW_UP_DATE,
+    a.ASSESSMENT_TYPE_SK AS ASSESSMENT_TYPE_FK
+FROM {{ref('silver_mental_health_assessments')}} f
+LEFT JOIN {{ref('dim_patient_demographics')}} p
+    ON f.PATIENT_ID=p.PATIENT_ID
+    AND f.ASSESSMENT_DATE>=p.EFFECTIVE_FROM
+    AND f.ASSESSMENT_DATE<p.EFFECTIVE_TO
+LEFT JOIN {{ref('dim_medical_practioners')}} d
+    ON f.DOCTOR_ID=d.DOCTOR_ID
+    AND f.ASSESSMENT_DATE>=d.EFFECTIVE_FROM
+    AND f.ASSESSMENT_DATE<d.EFFECTIVE_TO
+LEFT JOIN {{ref('dim_branches')}} b 
+    ON f.BRANCH_ID=b.BRANCH_ID
+    AND f.ASSESSMENT_DATE>=b.EFFECTIVE_FROM
+    AND f.ASSESSMENT_DATE<b.EFFECTIVE_TO
+LEFT JOIN {{ref('dim_medication')}} m 
+    ON f.MEDICATION_PRESCRIBED=m.MEDICATION_PRESCRIBED
+LEFT JOIN {{ref('dim_assessment_type')}} a 
+    ON f.ASSESSMENT_TYPE=f.ASSESSMENT_TYPE
+LEFT JOIN {{ref('dim_diagnosis')}} di
+    ON f.DIAGNOSIS_CODE=di.DIAGNOSIS_CODE
+{% if is_incremental() %}
+  WHERE f.ASSESSMENT_ID NOT IN (SELECT ASSESSMENT_ID FROM {{ this }})
+{% endif %}

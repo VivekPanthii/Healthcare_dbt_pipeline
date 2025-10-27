@@ -1,0 +1,21 @@
+{{
+    config(
+        materialized='incremental',
+        unique_key='MEDICATION_PRESCRIBED_SK'
+    )
+}}
+
+WITH TS AS (
+    SELECT DISTINCT MEDICATION_PRESCRIBED
+    FROM {{ref("silver_mental_health_assessments")}}
+    WHERE MEDICATION_PRESCRIBED IS NOT NULL
+)
+SELECT 
+    ROW_NUMBER() OVER (ORDER BY MEDICATION_PRESCRIBED) MEDICATION_PRESCRIBED_SK,
+    MEDICATION_PRESCRIBED
+FROM TS
+{% if is_incremental() %}
+WHERE MEDICATION_PRESCRIBED NOT IN (
+    SELECT MEDICATION_PRESCRIBED FROM {{this}}
+)
+{% endif %}

@@ -1,0 +1,21 @@
+doctor_id,full_name,specialization,qualification,license_number,years_of_experience,primary_branch_id,secondary_branch_id,phone,email,hire_date,employment_status,consultation_fee,rating,total_patients_treated,languages_spoken,working_hours,emergency_availability
+DOC001,Dr. Sarah Mitchell,Clinical Psychiatrist,MD - Psychiatry,PSY-NY-45678,15,BR001,BR009,212-555-1001,s.mitchell@hcplus.com,2015-03-20,Active,250.00,4.8,450,English|Spanish,Mon-Fri 9AM-5PM,Yes
+DOC002,Dr. Michael Chen,Clinical Psychologist,PhD - Psychology,PSY-NY-56789,12,BR001,,212-555-1002,m.chen@hcplus.com,2016-01-15,Active,200.00,4.7,380,English|Mandarin,Mon-Fri 10AM-6PM,No
+DOC003,Dr. Jennifer Rodriguez,Psychiatrist,MD - Psychiatry,PSY-CA-67890,10,BR002,,323-555-1003,j.rodriguez@hcplus.com,2017-06-22,Active,240.00,4.9,520,English|Spanish,Mon-Sat 8AM-4PM,Yes
+DOC004,Dr. Robert Williams,Clinical Psychologist,PhD - Psychology,PSY-CA-78901,18,BR002,BR010,323-555-1004,r.williams@hcplus.com,2015-08-10,Active,220.00,4.6,600,English,Tue-Sat 9AM-5PM,No
+DOC005,Dr. Maria Santos,Psychiatrist,MD - Psychiatry,PSY-TX-89012,8,BR003,,713-555-1005,m.santos@hcplus.com,2018-09-12,Active,230.00,4.8,340,English|Spanish|Portuguese,Mon-Fri 8AM-4PM,Yes
+DOC006,Dr. David Lee,Clinical Psychologist,PhD - Psychology,PSY-AZ-90123,14,BR004,,602-555-1006,d.lee@hcplus.com,2016-04-18,Active,210.00,4.7,420,English|Korean,Mon-Fri 10AM-6PM,No
+DOC007,Dr. Emily Johnson,Psychiatrist,MD - Psychiatry,PSY-TX-01234,11,BR003,,713-555-1007,e.johnson@hcplus.com,2017-11-25,Active,245.00,4.9,390,English,Mon-Fri 9AM-5PM,Yes
+DOC008,Dr. James Patterson,Clinical Psychologist,PhD - Psychology,PSY-AZ-12345,9,BR004,,602-555-1008,j.patterson@hcplus.com,2018-07-30,Active,205.00,4.6,310,English|French,Mon-Sat 8AM-4PM,No
+DOC009,Dr. Linda Brown,Psychiatrist,MD - Psychiatry,PSY-PA-23456,16,BR005,,215-555-1009,l.brown@hcplus.com,2019-04-14,active,255.00,4.8,480,English,Mon-Fri 9AM-5PM,Yes
+DOC010,Dr. Thomas Anderson,Clinical Psychologist,PhD - Psychology,PSY-IL-34567,13,BR006,,312-555-1010,t.anderson@hcplus.com,2020-07-20,Active,215.00,4.7,290,English|German,Tue-Sat 10AM-6PM,No
+DOC011,Dr. Patricia Garcia,Psychiatrist,MD - Psychiatry,PSY-FL-45678,7,BR007,,305-555-1011,p.garcia@hcplus.com,2021-03-01,Active,235.00,4.9,260,English|Spanish,Mon-Fri 8AM-4PM,Yes
+DOC012,Dr. Christopher Taylor,Clinical Psychologist,PhD - Psychology,PSY-WA-56789,10,BR008,,206-555-1012,c.taylor@hcplus.com,2021-08-17,Active,200.00,4.6,240,English,Mon-Fri 10AM-6PM,No
+DOC013,,Psychiatrist,MD - Psychiatry,PSY-MA-67890,14,BR009,,617-555-1013,k.martinez@hcplus.com,2015-11-22,Active,260.00,4.8,510,English|Spanish,Mon-Sat 9AM-5PM,Yes
+DOC014,Dr. Nancy Wilson,Clinical Psychologist,PhD - Psychology,PSY-CO-78901,11,BR010,,303-555-1014,n.wilson@hcplus.com,2017-06-05,Active,220.00,4.7,370,English,Mon-Fri 9AM-5PM,No
+DOC015,Dr. Daniel Moore,Psychiatrist,MD - Psychiatry,PSY-GA-89012,9,BR011,,404-555-1015,d.moore@hcplus.com,2018-09-08,Active,240.00,4.8,320,English,Mon-Fri 8AM-4PM,Yes
+DOC016,Dr. Lisa Thompson,Clinical Psychologist,PhD - Psychology,PSY-CA-90123,12,BR012,,619-555-1016,l.thompson@hcplus.com,2019-12-12,Active,210.00,4.7,280,English,Tue-Sat 10AM-6PM,No
+DOC017,Dr. Kenneth White,Psychiatrist,MD - Psychiatry,PSY-TX-01234,15,BR013,,214-555-1017,k.white@hcplus.com,2016-03-24,Active,250.00,4.9,490,English,Mon-Fri 9AM-5PM,Yes
+DOC018,Dr. Sandra Harris,Clinical Psychologist,PhD - Psychology,PSY-OR-12345,8,BR014,,503-555-1018,s.harris@hcplus.com,2020-01-17,Active,205.00,4.6,250,English,Mon-Fri 10AM-6PM,No
+DOC019,Dr. Paul Martin,Psychiatrist,MD - Psychiatry,PSY-NV-23456,10,BR015,,702-555-1019,p.martin@hcplus.com,2021-06-22,Inactive,230.00,4.7,180,English|Spanish,Mon-Fri 8AM-4PM,No
+DOC020,Dr. Betty Jackson,Clinical Psychologist,PhD - Psychology,PSY-NY-34567,17,BR001,BR009,212-555-1020,b.jackson@hcplus.com,2015-05-10,Active,225.00,4.8,560,English,Mon-Sat 9AM-5PM,Yes
