@@ -1,7 +1,8 @@
 {{
     config(
         materialized='incremental',
-        unique_key='TREATMENT_ID'
+        unique_key='TREATMENT_ID',
+        on_scheam_change='merge'
     )
 }}
 

@@ -1,12 +1,16 @@
-my_project:
-  target: dev
-  outputs:
-    dev:
-      type: snowflake
-      account: "<YOUR_ACCOUNT>"
-      user: "<YOUR_USERNAME>"
-      password: "<YOUR_PASSWORD>"
-      role: "<YOUR_ROLE>"
-      database: "<YOUR_DATABASE>"
-      warehouse: "<YOUR_WAREHOUSE>"
-      schema: "<YOUR_SCHEMA>"
+healthcare_dbt:
+    target: dev
+    outputs:
+        dev:
+            type: snowflake
+
+            account: OLQAHMP-WG32005
+
+            user: VIVEKPANTHII
+
+            role: ACCOUNTADMIN
+            database: MYDB
+            warehouse: HEALTHCARE
+            schema: BRONZE
+            threads: 1
+            password: "#Newton66564506"

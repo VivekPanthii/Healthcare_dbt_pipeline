@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **Healthcare ETL pipeline** that extracts, loads, and transforms raw data from local sources into **Snowflake**, leveraging **S3 for storage** and **dbt for transformations**. The pipeline is orchestrated using **Apache Airflow** and implements a **medallion architecture** with Bronze, Silver, and Gold layers.
+This project implements a **Healthcare ETL pipeline** that extracts, loads, and transforms raw data from local sources into **Snowflake**, leveraging **S3 for storage** and **dbt for transformations**. The pipeline is orchestrated using **Dagster** and implements a **medallion architecture** with Bronze, Silver, and Gold layers.
 
 ---
 
@@ -42,9 +42,9 @@ This project implements a **Healthcare ETL pipeline** that extracts, loads, and 
 | ETL Extraction        | Python, Boto3                                |
 | ETL Loading           | Python, Snowflake Connector                  |
 | Transformations       | dbt                                          |
-| Orchestration         | Apache Airflow                               |
+| Orchestration         | Dagster                                      |
 | Storage               | S3 (raw/extracted files), Snowflake (processed data) |
-| Metadata Tracking     | Parquet files                                |
+| Metadata Tracking     | Parquet and csv files                        |
 | Pipeline Design       | Medallion Architecture (Bronze, Silver, Gold)|
 
 ---
@@ -68,13 +68,11 @@ pip install -r requirements.txt
 ```
 ---
 
-## Run Airflow DAG
+## Run Dagster
 ```bash
-# Initialize Airflow DB
-airflow db init
+#start the dagster
+dg dev
 
-# Start scheduler
-airflow standalone
 ```
 - The DAG will orchestrate the Bronze → Silver → Gold layers automatically
 

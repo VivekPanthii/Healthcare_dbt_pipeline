@@ -15,3 +15,5 @@ airflow/dags/__pycache__/
 random.txt
 
 logs/
+
+healthcare_dbt/profiles.yml
