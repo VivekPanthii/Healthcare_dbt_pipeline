@@ -90,3 +90,8 @@ dg dev
 ### Pipeline Architecture
 
 ![Dagster UI Screenshot](Global_Asset_Lineage.svg)
+
+
+### dbt lineage graph
+
+![dbt lineage graph](dbt-dag.png)
