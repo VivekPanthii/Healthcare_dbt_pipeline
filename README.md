@@ -68,6 +68,9 @@ pip install -r requirements.txt
 
 ## Run Dagster
 ```bash
+
+cd dagster_automate
+
 #start the dagster
 dg dev
 
