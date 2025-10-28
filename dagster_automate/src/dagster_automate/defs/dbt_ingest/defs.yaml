@@ -1,0 +1,4 @@
+type: dagster_dbt.DbtProjectComponent
+
+attributes:
+  project: '/home/vivekpanthi/DataEngineering/Health_Care_ETL/healthcare_dbt'
