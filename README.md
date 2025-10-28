@@ -85,3 +85,8 @@ dg dev
 - Add **dbt tests** for data quality and validation.
 
 - Implement **CI/CD** for automated deployments.
+
+
+### Pipeline Architecture
+
+![Dagster UI Screenshot](Global_Asset_Lineage.svg)
