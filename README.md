@@ -27,11 +27,9 @@ This project implements a **Healthcare ETL pipeline** that extracts, loads, and 
   - **Current issue**: Gold layer transformations are not fully idempotent.
 
 ### Orchestration
-- **Apache Airflow** is used to orchestrate the pipeline.  
-- Tasks are scheduled **daily** with:
-  - `catchup=False`
-  - `retries=1`  
-- The DAG runs all three layers in sequence: **Bronze → Silver → Gold**.
+- **Dagster** is used to orchestrate the pipeline.  
+- Tasks are scheduled **daily** with:  
+- The DAG runs all three layers in sequence: extraction -> loading -> transformation (**Bronze → Silver → Gold**).
 
 ---
 
