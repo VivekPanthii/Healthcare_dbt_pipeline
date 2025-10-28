@@ -51,7 +51,7 @@ This project implements a **Healthcare ETL pipeline** that extracts, loads, and 
 
 ## Current Limitations / Issues
 - **Gold Layer** is not fully idempotent.  
-- **Silver Layer** currently removes ~30% of source data unintentionally.  
+- **Silver Layer** currently cleans ~30% of source data.  
 - **dbt Tests** are not yet implemented.
 
 ---
