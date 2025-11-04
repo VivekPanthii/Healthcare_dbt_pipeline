@@ -20,7 +20,7 @@ This project implements a **Healthcare ETL pipeline** that extracts, loads, and 
 ### Data Transformation with dbt
 - **Bronze Layer**: Stores raw data in Snowflake.  
 - **Silver Layer**: Performs transformations to clean and structure data.  
-  - **Note**: Currently, ~30% of source data is being cleaned unintentionally.  
+  - **Note**: Currently, ~30% of source data is being cleaned intentionally.  
 - **Gold Layer**: Creates **dimension tables** and **fact tables** with **SCD2 (Slowly Changing Dimension Type 2)**.  
   - Dimension tables connect to multiple fact tables.  
   - Fact tables share common dimension tables for consistency.  
