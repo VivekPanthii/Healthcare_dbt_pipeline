@@ -1,8 +1,8 @@
-# Healthcare ETL Pipeline
+# Healthcare ELT Pipeline
 
 ## Overview
 
-This project implements a **Healthcare ETL pipeline** that extracts, loads, and transforms raw data from local sources into **Snowflake**, leveraging **S3 for storage** and **dbt for transformations**. The pipeline is orchestrated using **Dagster** and implements a **medallion architecture** with Bronze, Silver, and Gold layers.
+This project implements a **Healthcare ELT pipeline** that extracts, loads, and transforms raw data from local sources into **Snowflake**, leveraging **S3 for storage** and **dbt for transformations**. The pipeline is orchestrated using **Dagster** and implements a **medallion architecture** with Bronze, Silver, and Gold layers.
 
 ---
 
